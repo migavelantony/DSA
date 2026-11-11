@@ -1,3 +1,11 @@
+# LeetCode 43: Multiply Strings
+# Source: https://leetcode.com/problems/multiply-strings/description/
+#
+# Problem summary (paraphrased):
+# Multiply two nonnegative integers supplied as digit strings and return their product
+# as a string. Do not parse either complete input as an integer or use a big-integer
+# library.
+
 class Solution:
     def multiply(self, num1: str, num2: str) -> str:
         if num1 == "0" or num2 == "0":

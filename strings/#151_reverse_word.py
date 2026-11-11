@@ -1,3 +1,10 @@
+# LeetCode 151: Reverse Words in a String
+# Source: https://leetcode.com/problems/reverse-words-in-a-string/description/
+#
+# Problem summary (paraphrased):
+# Return the words of the input string in reverse order. Use one space between words
+# and remove leading and trailing spaces.
+
 class Solution:
     def reverseWords(self, s: str) -> str:
         word = s.split()
